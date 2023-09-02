@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      database: ${env.MONGO_DB}
+      uri: mongodb+srv://${env.MONGO_USERNAME}:${env.MONGO_PASSWORD}@${env.MONGO_CLUSTER}
